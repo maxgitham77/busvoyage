@@ -12,6 +12,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/route")
+@CrossOrigin("*")
 public class BusRouteController {
 
     @Autowired
